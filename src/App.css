@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+.Particles{
+
+position: fixed;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+z-index: -1;
+
+
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffcc25;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 179, 66);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 169, 39);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
